@@ -36,7 +36,6 @@ blacklist rtl2830
 blacklist rtl2832
 blacklist rtl2832_sdr
 blacklist rtl2838
-EOF
 
 # This alone will not prevent a module being loaded if it is a
 # required or an optional dependency of another module. Some kernel
@@ -56,6 +55,7 @@ install rtl2830 /bin/false
 install rtl2832 /bin/false
 install rtl2832_sdr /bin/false
 install rtl2838 /bin/false
+EOF
 ```
 
 ### 2. Unload Modules
